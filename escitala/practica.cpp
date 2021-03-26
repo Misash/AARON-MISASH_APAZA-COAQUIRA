@@ -38,31 +38,3 @@ string Person::decipher(string ciphertext) {
     swap(row,column);
     return plaintext;
 }
-
-
-
-
-
-
-
-
-/*
-    //string msj="hola_como_estan___";
-    string msj="hotomalona___e_cs_";
-    int f=6,c=3,n=msj.size();
-
-    int i=0,j=0,x=0;
-
-    while(x<n){
-        if(x%f!=0){
-            j+=c;
-            cout<<msj[j];
-        }
-        else{
-            cout<<msj[i];
-            j=i;
-            ++i;
-        }
-        ++x;
-    }
-*/
