@@ -1,13 +1,22 @@
 
 #include <iostream>
 #include <string>
-#include <sstream>
+#include <vector>
 
 
 using namespace std;
 
 
-void problema1(string txt,int columnas){
+
+
+
+
+void problema1_A_B_C_D_E_F(string txt,int columnas){
+    //pregunta e
+    string string1;
+    //pregunta f
+    vector<string> vect;
+    std::vector<int>
 
     int n=txt.size();
 
@@ -16,8 +25,16 @@ void problema1(string txt,int columnas){
 
     for(int i=0;i<filas;++i){
         for(int j=0;j<columnas;j++){
-            if(cont>=n) cout<<"X";
-            else cout<<txt[cont];
+            if(cont>=n) {
+                cout<<"X";
+                string1.push_back('X');
+                vect.push_back('X');
+            }
+            else {
+                cout<<txt[cont];
+                string1.push_back(txt[cont]);
+                vect.push_back(txt[cont]);
+            }
             cont++;
 
         }
@@ -28,12 +45,18 @@ void problema1(string txt,int columnas){
 }
 
 
+
+
+
+
+
 int main(){
 
     string str="intente analizar mas profundamente los mensajes recibidos";
     int key =4;
 
     problema1(str,key);
+
 
 }
 
