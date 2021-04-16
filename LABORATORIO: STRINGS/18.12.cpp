@@ -19,7 +19,6 @@ void play_Ahorcado() {
 
     srand(time(0));
     string word = word_list[rand() % 14];
-    word = "hola";
     int len = word.size();
     string unknown_word(len, 'X');
     string letter;
