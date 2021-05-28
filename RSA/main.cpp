@@ -1,7 +1,5 @@
 
 #include <iostream>
-//#include "InfInt.h" //libreria para numeros grandes
-//#include "BigMath.h"
 #include <stdlib.h>
 #include <time.h>
 #include <NTL/mat_ZZ.h>
